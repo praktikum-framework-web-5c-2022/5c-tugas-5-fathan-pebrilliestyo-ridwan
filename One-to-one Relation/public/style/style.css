@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+}
+
+h1,p,th,td,span{
+    color: white;
+}
+
+.sosmed{
+    color: white !important;
+    font-weight: 700;
+}
+
+label{
+    color: white;
+}
+
+svg{
+    color: white;
+}
+
+h3{
+    color: white;
+}
+
+.button {
+    width: 140px;
+    height: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    }
+  
+  .button:hover {
+    background-color: #FC466B;
+    box-shadow: 0px 10px 20px rgb(250, 238, 243);
+    color: #fff;
+    transform: translateY(-3px);
+  }
+
+  .btn{
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+  }
+
+  .page-item{
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+  }
